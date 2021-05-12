@@ -9,7 +9,9 @@ import io.restassured.path.json.JsonPath;
 public class ReusableUtilities {
 
 	public static JsonPath ParseStringtoJSON(String StringData) {
-
+		
+		//JSON PATH CLASS 
+		
 		JsonPath jsobj = new JsonPath(StringData);
 
 		return jsobj;
