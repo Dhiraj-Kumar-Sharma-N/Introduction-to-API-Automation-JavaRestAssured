@@ -1,5 +1,7 @@
 package InpuOutputFiles;
 
+import java.util.ArrayList;
+
 public class InputOutputPayload {
 
 	public static String PostInputPayload() {
@@ -112,5 +114,14 @@ public class InputOutputPayload {
 				"}";
 		return payload;
 		}
-	
+	public static String ExcelAddBook(ArrayList<String> arr) {
+		
+		String payload = "{\r\n" + 
+				"\"name\":\""+arr.get(0)+"\",\r\n" + 
+				"\"isbn\":\""+arr.get(1)+"\",\r\n" + 
+				"\"aisle\":\""+arr.get(2)+"\",\r\n" + 
+				"\"author\":\""+arr.get(3)+"\"\r\n" + 
+				"}";
+		return payload;
+		}
 }

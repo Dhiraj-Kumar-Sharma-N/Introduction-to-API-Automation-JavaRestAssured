@@ -1,82 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0"
-	total="3" passed="3">
-	<reporter-output>
-	</reporter-output>
-	<suite name="Default suite" duration-ms="5093"
-		started-at="2021-05-09T19:04:41 IST"
-		finished-at="2021-05-09T19:04:46 IST">
-		<groups>
-		</groups>
-		<test name="Default test" duration-ms="5093"
-			started-at="2021-05-09T19:04:41 IST"
-			finished-at="2021-05-09T19:04:46 IST">
-			<class
-				name="AdvancedPayloadCreation.ParameterizeUsingDataProviderMultipleData">
-				<test-method status="PASS"
-					signature="AddBook(int,java.lang.String)[pri:0, instance:AdvancedPayloadCreation.ParameterizeUsingDataProviderMultipleData@4d50efb8]"
-					name="AddBook" duration-ms="4167"
-					started-at="2021-05-09T19:04:41 IST"
-					data-provider="MultpleBooksData"
-					finished-at="2021-05-09T19:04:45 IST">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[112]]>
-							</value>
-						</param>
-						<param index="1">
-							<value>
-                <![CDATA[Ramesh]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- AddBook -->
-				<test-method status="PASS"
-					signature="AddBook(int,java.lang.String)[pri:0, instance:AdvancedPayloadCreation.ParameterizeUsingDataProviderMultipleData@4d50efb8]"
-					name="AddBook" duration-ms="434"
-					started-at="2021-05-09T19:04:45 IST"
-					data-provider="MultpleBooksData"
-					finished-at="2021-05-09T19:04:46 IST">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[113]]>
-							</value>
-						</param>
-						<param index="1">
-							<value>
-                <![CDATA[Suresh]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- AddBook -->
-				<test-method status="PASS"
-					signature="AddBook(int,java.lang.String)[pri:0, instance:AdvancedPayloadCreation.ParameterizeUsingDataProviderMultipleData@4d50efb8]"
-					name="AddBook" duration-ms="420"
-					started-at="2021-05-09T19:04:46 IST"
-					data-provider="MultpleBooksData"
-					finished-at="2021-05-09T19:04:46 IST">
-					<params>
-						<param index="0">
-							<value>
-                <![CDATA[114]]>
-							</value>
-						</param>
-						<param index="1">
-							<value>
-                <![CDATA[Naresh]]>
-							</value>
-						</param>
-					</params>
-					<reporter-output>
-					</reporter-output>
-				</test-method> <!-- AddBook -->
-			</class> <!-- AdvancedPayloadCreation.ParameterizeUsingDataProviderMultipleData -->
-		</test> <!-- Default test -->
-	</suite> <!-- Default suite -->
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="4300" started-at="2021-05-13T16:41:49 IST" finished-at="2021-05-13T16:41:53 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="4300" started-at="2021-05-13T16:41:49 IST" finished-at="2021-05-13T16:41:53 IST">
+      <class name="SpecBuilder.ReqResSpecBuilderforWeatherAPI">
+        <test-method status="PASS" signature="GetWeatherDetails()[pri:0, instance:SpecBuilder.ReqResSpecBuilderforWeatherAPI@289d1c02]" name="GetWeatherDetails" duration-ms="4245" started-at="2021-05-13T16:41:49 IST" finished-at="2021-05-13T16:41:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetWeatherDetails -->
+      </class> <!-- SpecBuilder.ReqResSpecBuilderforWeatherAPI -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
